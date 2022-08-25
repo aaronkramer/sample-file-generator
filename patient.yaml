@@ -1,0 +1,19 @@
+# specify an array with a $
+# specify a macro with a !
+
+id: '!uuid'
+age: '!number(18,55)'
+name: $name_array
+
+
+
+---
+# store arrays below
+name_array:
+  - name: Loren
+    weight: 1
+  - name: Kevin
+    weight: 1
+  - name: Sarah
+    weight: 10
+condition_array: 'C:\Repositories\portfolio-projects\sample-file-generator\conditions.json'
